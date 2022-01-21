@@ -9,4 +9,10 @@ class Cards:
     """ Create attributes and methods for this class"""
 
     def __init__(self):
+        self.card = 0
+
+    def draw_card(self):
+        self.card = random.randint(1, 13)
+
+    def has_points(self, guess):
         pass

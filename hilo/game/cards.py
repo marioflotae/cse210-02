@@ -10,9 +10,26 @@ class Cards:
 
     def __init__(self):
         self.card = 0
+        self.guess = ""
+        self.current = 0
+        self.next = 0
 
     def draw_card(self):
-        self.card = random.randint(1, 13)
+        return random.randint(1, 13)
 
-    def has_points(self, guess):
-        pass
+
+    def has_points(self, guess, current, next):
+        if current > next:
+            self.card = "l"
+            if self.card == guess:
+                return 100
+            else:
+                return -75
+        elif current < next:
+            self.card = 'h'
+            if self.card == guess:
+                return 100
+            else:
+                return -75
+        else: 
+            return 0

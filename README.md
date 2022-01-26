@@ -28,4 +28,4 @@ root                    (project root folder)
 
 ## Authors
 ---
-* Cheri Hansen, Ian Moses, Spencer Paulsen, Mario Flota
+* Cheri Hansen, Ian Moses, Spencer Paulsen, Jared Chinchilla Sanchez, Mario Flota

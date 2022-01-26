@@ -7,7 +7,6 @@ class Interface:
         3.- Next Card
         4.- New Score
         5.- Play again? 
-
         Create all attributes and methods needed for this class
     """
     def __init__(self):

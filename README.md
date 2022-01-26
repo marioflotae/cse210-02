@@ -1,5 +1,5 @@
-# Hilo
-Hi-Lo is a game of luck and strategy, take your chances and guess if the next card if higuer or lower. Gain 100 points for every correct guess, or lose 75 points. Keep trying and playing as long as you want, but be careful of not losing all your points.
+# HiLo
+Hi-Lo is a game of luck and strategy, take your chances and guess if the next card if higher or lower. Gain 100 points for every correct guess, or lose 75 points. Keep trying and playing as long as you want, but be careful of not losing all your points.
 
 ## Getting Started
 ---

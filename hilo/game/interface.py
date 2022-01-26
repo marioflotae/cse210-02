@@ -7,7 +7,11 @@ class Interface:
         3.- Next Card
         4.- New Score
         5.- Play again? 
-        Create all attributes and methods needed for this class
+    """
+
+    """
+        Creates constructor and attributes
+
     """
     def __init__(self):
         self.score = 300
@@ -17,10 +21,17 @@ class Interface:
         self.next_card = 0
         self.answer = ""
 
+    #This method displays the card on screen
     def display_card(self):
         card_object = Cards()
         return card_object.draw_card()
 
+    """
+        This is where the game starts. It will continue playing until the score is below or
+        equal to 0 (zero) or the player enters "n".
+        Prompts the user for an answer.
+        Updates new score
+    """
     def start_game(self):
         while self.playing:
             self.card = self.display_card()
@@ -34,6 +45,7 @@ class Interface:
             self.play_again()
             print()
 
+    #This method will check is the score is above 0 (zero) and prompt the user if they want to keep playing
     def play_again(self):
         if self.score > 0:
             self.answer = input('Play again? y/n: ')

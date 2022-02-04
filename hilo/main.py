@@ -1,4 +1,4 @@
-from game.interface.py import Interface
-
+from game.interface import Interface
+    
 hilo = Interface()
 hilo.start_game()
